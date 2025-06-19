@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    background-color: #1B1533;
+    display: flex;
+    height: 90px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.logo {
+    justify-content: flex-start;
+
+}
+
+nav ul {
+    display: flex;
+    padding: 12px 24px;
+    justify-content: flex-end;
+    list-style-type: none;
+    gap: 30px;
+}
+
+nav a {
+    text-align: right;
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+}
+
+.descargar {
+    background: linear-gradient(to right, #a44bd4, #2196f3);
+    border-radius: 8px;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+}
+
+.imagen1 {
+    background-image: url(../assets/imagenes/hojasFondo.jpg);
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.contenido1 {
+    background-color: #2B234D;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 683px;
+    height: 622px;
+
+}
+
