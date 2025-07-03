@@ -2,62 +2,269 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto Bleux</title>
-    <link rel="stylesheet" href="estilos/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Proyecto Bleux</title>
+  <link rel="stylesheet" href="estilos/style.css" />
 </head>
 
 <body>
-    <header>
-        <div class="logo">
-            <img src="assets/imagenes/logo.png" alt="logo">
+  <header>
+    <div class="logo">
+      <img src="assets/imagenes/logo.png" alt="logo" />
+    </div>
+    <nav>
+      <ul>
+        <li><a href="">ABOUT</a></li>
+        <li><a href="">FEATURES</a></li>
+        <li><a href="">USE CASE</a></li>
+        <li><a href="">PRICING</a></li>
+        <li><a href=""><button class="descargar">Download</button></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="pagina">
+    <div class="filtro">
+    <div class="imagen1">
+      <div class="contenido1">
+        <h1>Product<br />Page</h1>
+        <p>
+          We built this template to help create modern<br />
+          and beautiful marketing page.
+        </p>
+        <div class="botones">
+          <button class="boton1">Dowland it now</button>
+          <button class="boton2">Features</button>
         </div>
-        <nav>
-            <ul>
-                <li><a href="">ABOUT</a></li>
-                <li><a href="">FEATURES</a></li>
-                <li><a href="">USE CASE</a></li>
-                <li><a href="">PRICING</a></li>
-                <li><a href=""><button class="descargar">Download</button></a></li>
-            </ul>
-        </nav>
-    </header>
-    <section>
-        <section class="pagina">
-            <div class="imagen1">
-                <div class="contenido1">
-                <h1>Product Page</h1>
-                <h6>We built this template to help create modern and beautiful marketing page</h6>
-                <div class="conteniner-butoon">
-                    <button>Dowland it now</button>
-                    <button>Features</button>
-                </div>
-            </div>
-            <aside class="telefono">
-                    <img src="assets/imagenes/phone.png" alt="">
-                </aside>
-            </div>
-        </section>
-        <div class=contenido2>
-            <h2>Fonctionnalités</h2>
-            <h3>Alpha Screenshot</h3>
-            <p>This is a placeholder text. Replace it with your <br>
-                awesome call to action text. Develop stunning <br>
-                product website easily with this template</p>
-            <h4>Marketing Page</h4>
-            <div class="lista">
-                <ul>
-                    <li><a href="#">Based on Boostrap 4</a></li>
-                    <li><a href="#">Modern and creative</a></li>
-                    <li><a href="#">Optimized for mobile devices</a></li>
-                </ul>
-            </div>
-            <div class="computador">
-                <img src="assets/imagenes/laptop.png" alt="">
-            </div>
+      </div>
+      <aside>
+        <img src="assets/imagenes/phone.png" class="telefono" />
+      </aside>
+    </div>
+    </div>
+  </section>
+
+  <section class="contenido2">
+    <h2>Fonctionnalités</h2>
+
+    <div class="contenido-central">
+      <img src="assets/imagenes/laptop.png" class="computador" alt="Laptop" />
+
+      <div class="contenido-derecha">
+        <h3>Alpha Screenshot</h3>
+        <p>
+          This is a placeholder text. Replace it with your <br />
+          awesome call to action text. Develop stunning <br />
+          product website easily with this template.
+        </p>
+        <h4>— Marketing Page</h4>
+
+        <div class="lista">
+          <ul>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none">
+                <circle cx="12" cy="12" r="10" stroke="#FF2DAF" stroke-width="2" />
+                <path d="M8 12.5L10.5 15L16 9.5" stroke="#FF2DAF" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+              <a href="">Based on Bootstrap 4</a>
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none">
+                <circle cx="12" cy="12" r="10" stroke="#FF2DAF" stroke-width="2" />
+                <path d="M8 12.5L10.5 15L16 9.5" stroke="#FF2DAF" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+              <a href="">Modern and creative</a>
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none">
+                <circle cx="12" cy="12" r="10" stroke="#FF2DAF" stroke-width="2" />
+                <path d="M8 12.5L10.5 15L16 9.5" stroke="#FF2DAF" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+              <a href="">Optimized for mobile devices</a>
+            </li>
+          </ul>
         </div>
-    </main>
+      </div>
+    </div>
+  </section>
+
+  <section class="contenido3">
+    <h2>Plans y Pricing</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+      debitis quasi unde optio sed quis, atque eaque recusandae at veniam.
+      Voluptas voluptatum eveniet recusandae adipisci optio tenetur
+      incidunt vel voluptates.</p>
+
+    <div class="contenedores_bloques">
+      <div class="cont1">
+        <img src="assets/imagenes/hoja.png" class="hoja">
+        <div class="lite">
+          <h6>Lite</h6>
+        </div>
+        <div class="cont1_pequeño">
+          <h4>$0</h4>
+          <div class="exp1">
+            <p>Free</p>
+          </div>
+        </div>
+        <div class="lista">
+  <ul>
+    <li>
+      <svg class="icono" viewBox="0 0 24 24" fill="#e91e63"><path d="M12 17.27L18.18 21 16.54 13.97 22 9.24 14.81 8.63 12 2 9.19 8.63 2 9.24 7.46 13.97 5.82 21z"/></svg>
+      Full Components
+    </li>
+    <li>
+      <svg class="icono" viewBox="0 0 24 24" fill="#e91e63"><path d="M9 16.17L4.83 12 3.41 13.41 9 19 21 7 19.59 5.59z"/></svg>
+      Future Updates
+    </li>
+    <li>
+      <svg class="icono" viewBox="0 0 24 24" fill="#e91e63"><path d="M9 16.17L4.83 12 3.41 13.41 9 19 21 7 19.59 5.59z"/></svg>
+      Documentation
+    </li>
+    <li>
+      <svg class="icono" viewBox="0 0 24 24" fill="#e91e63"><path d="M9 16.17L4.83 12 3.41 13.41 9 19 21 7 19.59 5.59z"/></svg>
+      Customer Support
+    </li>
+    <li>
+      <svg class="icono" viewBox="0 0 24 24" fill="#333"><path d="M18.3 5.71a1 1 0 00-1.41 0L12 10.59 7.11 5.7A1 1 0 105.7 7.11L10.59 12l-4.89 4.89a1 1 0 101.41 1.41L12 13.41l4.89 4.89a1 1 0 001.41-1.41L13.41 12l4.89-4.89a1 1 0 000-1.4z"/></svg>
+      Cool Option
+    </li>
+  </ul>
+</div>
+
+        <div class="descripcion1">
+          <p>Nulla vel metus scelerisque</br>
+            ante sollicitudin. Cras purus</br>
+            odio, vestibulum in vulputate</br>
+            at, tempus viverra turpis.
+          </p>
+        </div>
+        <div class="utimo_cont1">
+          <button class="suscrib1">Suscribete Now</button>
+        </div>
+      </div>
+
+      <div class="cont2">
+        <img src="assets/imagenes/nube.png" class="nube">
+        <div class="estandar">
+          <h6>Estandard</h6>
+        </div>
+        <div class="cont2_pequeño">
+          <h4>$24</h4>
+          <div class="exp2">
+            <p>per month</p>
+          </div>
+        </div>
+<div class="lista">
+  <ul>
+    <li>
+      <svg class="icono" viewBox="0 0 24 24" fill="#e91e63"><path d="M12 17.27L18.18 21 16.54 13.97 22 9.24 14.81 8.63 12 2 9.19 8.63 2 9.24 7.46 13.97 5.82 21z"/></svg>
+      Full Components
+    </li>
+    <li>
+      <svg class="icono" viewBox="0 0 24 24" fill="#e91e63"><path d="M9 16.17L4.83 12 3.41 13.41 9 19 21 7 19.59 5.59z"/></svg>
+      Future Updates
+    </li>
+    <li>
+      <svg class="icono" viewBox="0 0 24 24" fill="#e91e63"><path d="M9 16.17L4.83 12 3.41 13.41 9 19 21 7 19.59 5.59z"/></svg>
+      Documentation
+    </li>
+    <li>
+      <svg class="icono" viewBox="0 0 24 24" fill="#e91e63"><path d="M9 16.17L4.83 12 3.41 13.41 9 19 21 7 19.59 5.59z"/></svg>
+      Customer Support
+    </li>
+    <li>
+      <svg class="icono" viewBox="0 0 24 24" fill="#333"><path d="M18.3 5.71a1 1 0 00-1.41 0L12 10.59 7.11 5.7A1 1 0 105.7 7.11L10.59 12l-4.89 4.89a1 1 0 101.41 1.41L12 13.41l4.89 4.89a1 1 0 001.41-1.41L13.41 12l4.89-4.89a1 1 0 000-1.4z"/></svg>
+      Cool Option
+    </li>
+  </ul>
+</div>
+
+        <div class="descripcion2">
+          <p>Nulla vel metus scelerisque</br>
+            ante sollicitudin. Cras purus</br>
+            odio, vestibulum in vulputate</br>
+            at, tempus viverra turpis.
+          </p>
+        </div>
+        <div class="utimo_cont1">
+          <button class="suscrib2">Suscribete Now</button>
+        </div>
+      </div>
+
+
+      <div class="cont3">
+        <img src="assets/imagenes/maletin.png" class="maletin">
+        <div class="ultimate">
+          <h6>Ultimate</h6>
+        </div>
+        <div class="cont3_pequeño">
+          <h4>$400</h4>
+          <div class="exp3">
+            <p>per user / <br> year</p>
+          </div>
+        </div>
+<div class="lista">
+  <ul>
+    <li>
+      <svg class="icono" viewBox="0 0 24 24" fill="#e91e63"><path d="M12 17.27L18.18 21 16.54 13.97 22 9.24 14.81 8.63 12 2 9.19 8.63 2 9.24 7.46 13.97 5.82 21z"/></svg>
+      <p>Full Components</p>
+    </li>
+    <li>
+      <svg class="icono" viewBox="0 0 24 24" fill="#e91e63"><path d="M9 16.17L4.83 12 3.41 13.41 9 19 21 7 19.59 5.59z"/></svg>
+      <p>Future Updates</p>
+    </li>
+    <li>
+      <svg class="icono" viewBox="0 0 24 24" fill="#e91e63"><path d="M9 16.17L4.83 12 3.41 13.41 9 19 21 7 19.59 5.59z"/></svg>
+      <p>Documentation</p>
+    </li>
+    <li>
+      <svg class="icono" viewBox="0 0 24 24" fill="#e91e63"><path d="M9 16.17L4.83 12 3.41 13.41 9 19 21 7 19.59 5.59z"/></svg>
+      <p>Customer Support</p>
+    </li>
+    <li>
+      <svg class="icono" viewBox="0 0 24 24" fill="#e91e63"><path d="M18.3 5.71a1 1 0 00-1.41 0L12 10.59 7.11 5.7A1 1 0 105.7 7.11L10.59 12l-4.89 4.89a1 1 0 101.41 1.41L12 13.41l4.89 4.89a1 1 0 001.41-1.41L13.41 12l4.89-4.89a1 1 0 000-1.4z"/></svg>
+      <p>Cool Option</p>
+    </li>
+  </ul>
+</div>
+        <div class="descripcion3">
+          <p>Nulla vel metus scelerisque</br>
+            ante sollicitudin. Cras purus</br>
+            odio, vestibulum in vulputate</br>
+            at, tempus viverra turpis.
+          </p>
+        </div>
+        <div class="utimo_cont1">
+          <button class="suscrib2">Suscribete Now</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+  <div>
+    © Website made by <a href="#" style="color: #e91e63; text-decoration: none;">Mivfx</a> - contact@address.com
+  </div>
+  <div class= "iconos_red">
+    <a href="#">
+      <svg width="16" height="16" fill="#333" viewBox="0 0 24 24"><path d="M22 12a10 10 0 1 0-11.5 9.9v-7h-2v-2.9h2v-2.3c0-2 1.2-3.1 3-3.1.9 0 1.8.1 1.8.1v2h-1c-1 0-1.3.6-1.3 1.2v1.9h2.2l-.4 2.9h-1.8v7A10 10 0 0 0 22 12z"/></svg>
+    </a>
+    <a href="#">
+      <svg width="16" height="16" fill="#333" viewBox="0 0 24 24"><path d="M22.46 6c-.77.35-1.6.58-2.46.69a4.28 4.28 0 0 0 1.88-2.37c-.83.49-1.75.83-2.73 1A4.26 4.26 0 0 0 16.5 4a4.27 4.27 0 0 0-4.26 4.25c0 .33.04.65.1.96A12.11 12.11 0 0 1 3.1 5.14a4.26 4.26 0 0 0 1.32 5.7 4.18 4.18 0 0 1-1.93-.53v.05a4.26 4.26 0 0 0 3.42 4.18 4.29 4.29 0 0 1-1.93.07 4.27 4.27 0 0 0 3.98 2.96A8.55 8.55 0 0 1 2 19.54a12.09 12.09 0 0 0 6.56 1.92c7.88 0 12.2-6.53 12.2-12.2l-.01-.56A8.6 8.6 0 0 0 24 5.1a8.39 8.39 0 0 1-2.54.7z"/></svg>
+    </a>
+    <a href="#">
+      <svg width="16" height="16" fill="#333" viewBox="0 0 24 24"><path d="M19 0h-14a5 5 0 0 0-5 5v14a5 5 0 0 0 5 5h14a5 5 0 0 0 5-5v-14a5 5 0 0 0-5-5zm-11.3 19h-2.4v-9h2.4v9zm-1.2-10.2c-.8 0-1.4-.7-1.4-1.5s.6-1.5 1.4-1.5c.9 0 1.5.7 1.5 1.5s-.6 1.5-1.5 1.5zm11.5 10.2h-2.4v-4.5c0-1.1-.4-1.8-1.4-1.8-.7 0-1.2.5-1.4 1-.1.2-.1.4-.1.7v4.6h-2.4s.03-7.5 0-8.3h2.4v1.2c.3-.5 1-1.3 2.4-1.3 1.8 0 3.1 1.2 3.1 3.7v4.7z"/></svg>
+    </a>
+    <a href="#">
+      <svg width="16" height="16" fill="#333" viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.8.1 1.2.1 2 .2 2.5.4a5.1 5.1 0 0 1 1.9 1.1 5.1 5.1 0 0 1 1.1 1.9c.2.5.3 1.3.4 2.5.1 1.2.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 1.2-.2 2-.4 2.5a5.1 5.1 0 0 1-1.1 1.9 5.1 5.1 0 0 1-1.9 1.1c-.5.2-1.3.3-2.5.4-1.2.1-1.6.1-4.8.1s-3.6 0-4.8-.1c-1.2-.1-2-.2-2.5-.4a5.1 5.1 0 0 1-1.9-1.1 5.1 5.1 0 0 1-1.1-1.9c-.2-.5-.3-1.3-.4-2.5C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.8c.1-1.2.2-2 .4-2.5a5.1 5.1 0 0 1 1.1-1.9 5.1 5.1 0 0 1 1.9-1.1c.5-.2 1.3-.3 2.5-.4 1.2-.1 1.6-.1 4.8-.1zm0-2.2c-3.3 0-3.7 0-5 .1-1.3.1-2.3.3-3.2.6a7.3 7.3 0 0 0-2.6 1.7A7.3 7.3 0 0 0 .5 5.9c-.3.9-.5 1.9-.6 3.2C0 10.4 0 10.8 0 14s0 3.7.1 5c.1 1.3.3 2.3.6 3.2a7.3 7.3 0 0 0 1.7 2.6 7.3 7.3 0 0 0 2.6 1.7c.9.3 1.9.5 3.2.6 1.3.1 1.7.1 5 .1s3.7 0 5-.1c1.3-.1 2.3-.3 3.2-.6a7.3 7.3 0 0 0 2.6-1.7 7.3 7.3 0 0 0 1.7-2.6c.3-.9.5-1.9.6-3.2.1-1.3.1-1.7.1-5s0-3.7-.1-5c-.1-1.3-.3-2.3-.6-3.2a7.3 7.3 0 0 0-1.7-2.6 7.3 7.3 0 0 0-2.6-1.7c-.9-.3-1.9-.5-3.2-.6C15.7 0 15.3 0 12 0z"/><circle cx="12" cy="12" r="3.2"/></svg>
+    </a>
+  </div>
+</footer>
+
 </body>
 
 </html>
